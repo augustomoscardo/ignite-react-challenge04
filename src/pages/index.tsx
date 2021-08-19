@@ -1,4 +1,4 @@
-import { Button, Box, Grid } from '@chakra-ui/react';
+import { Button, Box } from '@chakra-ui/react';
 import { useMemo } from 'react';
 import { useInfiniteQuery } from 'react-query';
 
@@ -8,7 +8,6 @@ import { Loading } from '../components/Loading';
 import { Error } from '../components/Error';
 
 import { api } from '../services/api';
-// import { Card } from '../components/Card';
 
 interface Image {
   title: string;

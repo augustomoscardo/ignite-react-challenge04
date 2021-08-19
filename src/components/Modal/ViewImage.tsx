@@ -28,13 +28,13 @@ export function ModalViewImage({
           mx="auto" 
           width="auto" 
           height="auto" 
-          maxWidth={["300px", "500px", "900px"]} 
+          maxWidth={["320px", "540px", "900px"]} 
           maxHeight={["350px", "450px", "600px"]}
         >
           <ModalBody padding="0">
             <Image 
               src={imgUrl} 
-              maxWidth={["300px", "500px", "900px"]} 
+              maxWidth={["320px", "540px", "900px"]} 
               maxHeight={["350px", "450px", "600px"]} 
             />
           </ModalBody>
